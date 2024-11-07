@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         asia.countries.add(turkey);
         asia.countries.add(singapore);
 
+        continents.add(asia);
+
         // TODO()
 
         Continent europe = new Continent(0, "Europe", new ArrayList<Country>());
@@ -121,6 +123,41 @@ public class MainActivity extends AppCompatActivity {
         southAmerica.countries.add(venezuela);
 
         continents.add(southAmerica);
+
+        Continent Africa = new Continent(0, "Africa", new ArrayList<Country>());
+
+        Country nigeria = new Country(0, "Nigeria", "http://ashishkudale.com/images/phy/sigma.png");
+        Country ethiopia = new Country(1, "Ethiopia", "http://ashishkudale.com/images/phy/sigma.png");
+        Country egypt = new Country(2, "Egypt", "http://ashishkudale.com/images/phy/sigma.png");
+        Country democraticRepublicCongo = new Country(3, "Democratic Republic of the Congo", "http://ashishkudale.com/images/phy/sigma.png");
+        Country southAfrica = new Country(4, "South Africa", "http://ashishkudale.com/images/phy/sigma.png");
+
+        Africa.countries.add(nigeria);
+        Africa.countries.add(ethiopia);
+        Africa.countries.add(egypt);
+        Africa.countries.add(democraticRepublicCongo);
+        Africa.countries.add(southAfrica);
+
+        continents.add(Africa);
+
+        Continent australia = new Continent(0, "Australia", new ArrayList<Country>());
+
+        Country Australia = new Country(0, "Australia", "http://ashishkudale.com/images/phy/sigma.png");
+        Country newZealand = new Country(1, "New Zealand", "http://ashishkudale.com/images/phy/sigma.png");
+
+        australia.countries.add(Australia);
+        australia.countries.add(newZealand);
+
+        continents.add(australia);
+
+        Continent antartica = new Continent(0, "Antartica", new ArrayList<Country>());
+
+        Country Antartica = new Country(0, "Antartica", "http://ashishkudale.com/images/phy/sigma.png");
+
+        antartica.countries.add(Antartica);
+
+        continents.add(antartica);
+
 
 
         return continents;
