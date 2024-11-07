@@ -43,13 +43,13 @@ public class MainActivity extends AppCompatActivity {
         Continent asia = new Continent(0, "Asia", new ArrayList<Country>());
 
         Country japan = new Country(0, "Japan", "http://ashishkudale.com/images/phy/sigma.png");
-        Country thailand = new Country(0, "Thailand", "http://ashishkudale.com/images/phy/sigma.png");
-        Country china = new Country(1, "China", "http://ashishkudale.com/images/phy/sigma.png");
-        Country india = new Country(2, "India", "http://ashishkudale.com/images/phy/sigma.png");
-        Country southKorea = new Country(3, "South Korea", "http://ashishkudale.com/images/phy/sigma.png");
-        Country uniEmirateArab = new Country(4, "Uni Emirate Arab", "http://ashishkudale.com/images/phy/sigma.png");
-        Country turkey = new Country(5, "Turkey", "http://ashishkudale.com/images/phy/sigma.png");
-        Country singapore = new Country(6, "Singapore", "http://ashishkudale.com/images/phy/sigma.png");
+        Country thailand = new Country(1, "Thailand", "http://ashishkudale.com/images/phy/sigma.png");
+        Country china = new Country(2, "China", "http://ashishkudale.com/images/phy/sigma.png");
+        Country india = new Country(3, "India", "http://ashishkudale.com/images/phy/sigma.png");
+        Country southKorea = new Country(4, "South Korea", "http://ashishkudale.com/images/phy/sigma.png");
+        Country uniEmirateArab = new Country(5, "Uni Emirate Arab", "http://ashishkudale.com/images/phy/sigma.png");
+        Country turkey = new Country(6, "Turkey", "http://ashishkudale.com/images/phy/sigma.png");
+        Country singapore = new Country(7, "Singapore", "http://ashishkudale.com/images/phy/sigma.png");
 
         asia.countries.add(japan);
         asia.countries.add(thailand);
@@ -62,7 +62,66 @@ public class MainActivity extends AppCompatActivity {
 
         // TODO()
 
-        continents.add(asia);
+        Continent europe = new Continent(0, "Europe", new ArrayList<Country>());
+
+        Country russia = new Country(0, "Russia", "http://ashishkudale.com/images/phy/sigma.png");
+        Country germany = new Country(1, "Germany", "http://ashishkudale.com/images/phy/sigma.png");
+        Country france = new Country(2, "France", "http://ashishkudale.com/images/phy/sigma.png");
+        Country unitedkingdom = new Country(3, "United Kingdom", "http://ashishkudale.com/images/phy/sigma.png");
+        Country italy = new Country(4, "Italy", "http://ashishkudale.com/images/phy/sigma.png");
+        Country spain = new Country(5, "Spain", "http://ashishkudale.com/images/phy/sigma.png");
+        Country ukraine = new Country(6, "Ukraine", "http://ashishkudale.com/images/phy/sigma.png");
+        Country poland = new Country(7, "Poland", "http://ashishkudale.com/images/phy/sigma.png");
+
+        europe.countries.add(russia);
+        europe.countries.add(germany);
+        europe.countries.add(france);
+        europe.countries.add(unitedkingdom);
+        europe.countries.add(italy);
+        europe.countries.add(spain);
+        europe.countries.add(ukraine);
+        europe.countries.add(poland);
+
+        continents.add(europe);
+
+        Continent northAmerica = new Continent(0, "North America", new ArrayList<Country>());
+
+        Country unitedStates = new Country(0, "United States", "http://ashishkudale.com/images/phy/sigma.png");
+        Country mexico = new Country(1, "Mexico", "http://ashishkudale.com/images/phy/sigma.png");
+        Country canada = new Country(2, "Canada", "http://ashishkudale.com/images/phy/sigma.png");
+        Country guatemala = new Country(3, "Guatemala", "http://ashishkudale.com/images/phy/sigma.png");
+        Country cuba = new Country(4, "Cuba", "http://ashishkudale.com/images/phy/sigma.png");
+        Country haiti = new Country(5, "Haiti", "http://ashishkudale.com/images/phy/sigma.png");
+        Country dominicanRepublic = new Country(6, "Dominican Republic", "http://ashishkudale.com/images/phy/sigma.png");
+        Country honduras = new Country(7, "Honduras", "http://ashishkudale.com/images/phy/sigma.png");
+
+        northAmerica.countries.add(unitedStates);
+        northAmerica.countries.add(mexico);
+        northAmerica.countries.add(canada);
+        northAmerica.countries.add(guatemala);
+        northAmerica.countries.add(cuba);
+        northAmerica.countries.add(haiti);
+        northAmerica.countries.add(dominicanRepublic);
+        northAmerica.countries.add(honduras);
+
+        continents.add(northAmerica);
+
+        Continent southAmerica = new Continent(0, "South America", new ArrayList<Country>());
+
+        Country brazil = new Country(0, "Brazil", "http://ashishkudale.com/images/phy/sigma.png");
+        Country colombia = new Country(1, "Colombia", "http://ashishkudale.com/images/phy/sigma.png");
+        Country argentina = new Country(2, "Argentina", "http://ashishkudale.com/images/phy/sigma.png");
+        Country peru = new Country(3, "Peru", "http://ashishkudale.com/images/phy/sigma.png");
+        Country venezuela = new Country(4, "Venezuela", "http://ashishkudale.com/images/phy/sigma.png");
+
+        southAmerica.countries.add(brazil);
+        southAmerica.countries.add(colombia);
+        southAmerica.countries.add(argentina);
+        southAmerica.countries.add(peru);
+        southAmerica.countries.add(venezuela);
+
+        continents.add(southAmerica);
+
 
         return continents;
     }
