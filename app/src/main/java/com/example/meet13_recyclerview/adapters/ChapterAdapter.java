@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.meet13_recyclerview.R;
 import com.example.meet13_recyclerview.models.Country;
-import com.squareup.picasso.Picasso;
+
 
 import java.util.ArrayList;
 
@@ -38,7 +38,7 @@ public class ChapterAdapter extends RecyclerView.Adapter<ChapterAdapter.CustomVi
     public void onBindViewHolder(CustomViewHolder holder, int position) {
         Country country = countries.get(position);
         holder.tvChapterName.setText(country.countryName);
-        Picasso.get().load(country.imageUrl).into(holder.ivChapter);
+        holder.ivChapter.setImageResource(country.imageResId);
     }
 
     @Override
