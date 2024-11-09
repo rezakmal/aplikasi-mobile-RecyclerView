@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         Country japan = new Country(0, "Japan", "http://ashishkudale.com/images/phy/sigma.png");
         Country thailand = new Country(1, "Thailand", "http://ashishkudale.com/images/phy/sigma.png");
-        Country china = new Country(2, "China", "http://ashishkudale.com/images/phy/sigma.png");
+        Country china = new Country(2, "China", "https://unsplash.com/photos/a-view-of-the-great-wall-of-china-in-the-fog-80OWrQGTtG8");
         Country india = new Country(3, "India", "http://ashishkudale.com/images/phy/sigma.png");
         Country southKorea = new Country(4, "South Korea", "http://ashishkudale.com/images/phy/sigma.png");
         Country uniEmirateArab = new Country(5, "Uni Emirate Arab", "http://ashishkudale.com/images/phy/sigma.png");
